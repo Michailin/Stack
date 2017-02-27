@@ -47,7 +47,7 @@ public:
         len(0),
         capacity(capacity_)
     {
-        memset(data,0,sizeof(Type));
+        memset(data,0,sizeof(Type)*capacity_);
     }
     void freeMem()
     {
